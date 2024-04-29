@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1714418021.06031 "c:/Users/jeffd/latexRoot/resume1.tex" "resume1.pdf" "resume1" 1714418022.88239 0
+["pdflatex"] 1714419101.3621 "c:/Users/jeffd/latexRoot/resume1.tex" "resume1.pdf" "resume1" 1714419103.21972 0
   "C:/Users/jeffd/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1714361853 122523 388333b97d2e433b66eb03fb8990bdc8 ""
   "C:/Users/jeffd/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1714353891 24236006 d17fab00442cdc15090113028df10637 ""
   "C:/Users/jeffd/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1651500229 2920 d63721872b8c77041b88e51b8f7c291d ""
@@ -208,10 +208,10 @@
   "C:/Users/jeffd/AppData/Local/Programs/MiKTeX/tex/latex/tools/multicol.sty" 1700599895 32515 51caec75eda9c8890135f12f1a4eddc3 ""
   "C:/Users/jeffd/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/jeffd/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "c:/Users/jeffd/latexRoot/resume1.tex" 1714418020 6373 7e0b54d65f55d348a1d6554fd955ae5c ""
-  "resume1.aux" 1714418022 204 62e1fd4701e2c442b920a2c9a7425a48 "pdflatex"
-  "resume1.out" 1714418022 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "resume1.tex" 1714418020 6373 7e0b54d65f55d348a1d6554fd955ae5c ""
+  "c:/Users/jeffd/latexRoot/resume1.tex" 1714419100 6359 95e9b4626a07a034935070158f93f104 ""
+  "resume1.aux" 1714419102 204 62e1fd4701e2c442b920a2c9a7425a48 "pdflatex"
+  "resume1.out" 1714419102 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "resume1.tex" 1714419100 6359 95e9b4626a07a034935070158f93f104 ""
   (generated)
   "resume1.aux"
   "resume1.log"
