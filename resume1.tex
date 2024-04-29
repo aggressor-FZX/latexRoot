@@ -1,0 +1,110 @@
+\documentclass[10pt,a4paper,sans]{moderncv}
+\usepackage{xcolor}
+\moderncvstyle{banking}
+\definecolor{myorange}{RGB}{255,133,22}
+\moderncvcolor{orange}
+\nopagenumbers{}
+\renewcommand{\section}[1]{\vspace{2.5ex}\textcolor{myorange}{\MakeUppercase{#1}}\par\nobreak\vspace{1ex}}
+\usepackage{ragged2e}
+\usepackage[scale=0.915]{geometry}
+\usepackage{import}
+\usepackage{multicol}
+\usepackage{enumitem}
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\renewcommand*{\namefont}{\fontsize{30}{30}\mdseries\upshape\color{myorange}}
+\name{Jeff}{Calderon}
+\newcommand*{\customcventry}[7][1.13em]{
+\begin{tabular}{@{}l}
+{\bfseries #4} \
+{\itshape #3}
+\end{tabular}
+\hfill
+\begin{tabular}{l@{}}
+{\bfseries #5} \
+{\itshape #2}
+\end{tabular}
+\ifx&#7&%
+\else{\
+\begin{minipage}{\maincolumnwidth}%
+\small#7%
+\end{minipage}}\fi%
+\par\addvspace{#1}}
+\begin{document}
+\makecvtitle
+\vspace*{-10mm}
+\begin{center}\textbf{ Python Developer and Data Scientist}\end{center}
+\begin{center}
+\begin{tabular}{ c c c }
+\faMobile\enspace +1 9167128396 & \hspace{0.1 cm} \faEnvelope\enspace jeff.d.calderon@gmail.com \hspace{0.1 cm} & \faHome\enspace Marysville, WA\\
+\end{tabular}
+\\
+\begin{tabular}{ c c }
+\faLinkedin\enspace \color{blue} \href{https://www.linkedin.com/in/jeffdcalderon/}{jeffdcalderon}  \hspace{0.3 cm} &
+\faGithub\enspace \color{blue} \href{https://github.com/aggressor-FZX}{github.com/aggressor-FZX} \\
+\end{tabular}
+\end{center}
+
+% SUMMARY -------------------------------
+\section{Summary}
+{Detail-oriented and self-motivated professional with strong foundational knowledge in software development, data analysis, and cybersecurity.
+ Possesses expertise in Python, Data Science and Physics. Demonstrates a strong propensity for quick learning,
+ with a track record of applying technical skills to solve complex problems in high-stakes environments. Committed to craftsmanship in coding and a 
+ customer-first mentality, ready to bring agility and a growth mindset to a dynamic team. Fluent in modern computing practices with 16+ years secret security clearance holder.}
+
+\section{Skills and Technologies}
+{Python - C++ - Linux - AWS - Docker - and Network Security - Git - REST APIs - version control systems - Unit Testing Frameworks - MATLAB - Data Visualization 
+- Visual Studio - Excel - Leadership - Strong interpersonal and communication skills - Analytical thinking with a growth mindset}
+
+% PROFESSIONAL EXPERIENCE-------------------------------
+\section{PROFESSIONAL EXPERIENCE}
+\customcventry{06/2016 ‐ 05/2023}{{\color{blue}\href{https://www.omao.noaa.gov/noaa-corps}{(National Oceanic \& Atmospheric Administration)}}}{Commissined Officer}{Newport, OR}{}{
+{\begin{itemize}[leftmargin=0.6cm, label={\textbullet}]
+\item Led hydrographic survey missions, ensuring compliance with international standards.
+\item Innovated Python-based automations for data processing, enhancing operational efficiency.
+\item Managed scientific computing systems and sensor networks aboard NOAA Ships
+\end{itemize}}}\hspace{0.3 cm}
+
+\customcventry{01/2014 ‐ 06/2016}{{\color{blue}\href{https://www.nrl.navy.mil/}{(Naval Research Laboratory)}}}{Research Physicist,}{Washington, DC}{}{
+{\begin{itemize}[leftmargin=0.6cm, label={\textbullet}]
+\item Utilized high performance computing to conduct critical studies on radiation detection for border security applications.
+\item Supported software development to predict active interrogation procedures and passive detection of WMD/radiological devices.
+\item Influenced a \$500K investment from the Domestic Nuclear Detection Office for continued research.
+\end{itemize}}}\hspace{0.3 cm}
+
+\customcventry{01/2013 ‐ 04/2015}{{\color{blue}\href{https://umdphysics.umd.edu/research/research-areas/high-energy-physics.html}{(University of Maryalnd College Park)}}}{Faculty Assistant Researcher,}{College Park, MD}{}{
+{\begin{itemize}[leftmargin=0.6cm, label={\textbullet}]
+\item Designed software for data analysis and publication quality plots in particle physics experiments.
+\item co-authored publications on experiments conducted at the Large Hadron Collider, contributing to scientific knowledge.
+\item Developed simulations for radiation studies and efficiency quantifications with programming skills in C++ and Python.
+\end{itemize}}}\hspace{0.3 cm}
+
+\customcventry{05/2002 ‐ 01/2010}{{\color{blue}\href{https://www.airforce.com}{(United States Air Force)}}}{Aerospace Ground Equipment Mechanic}{World Wide}{}{
+{\begin{itemize}[leftmargin=0.6cm, label={\textbullet}]
+\item Administered equipment databases, supervised maintenance operations, and ensured aircraft data availability.
+\item Maintained aircraft maintenance records supporting F-16 fighter jets and presented readiness statistics to base leadership.
+\item	Excelled in interpreting technical schematics and delivering precise information.
+\end{itemize}}}
+\vspace{-0.5cm}
+% CERTIFICATIONS-------------------------------
+\section{Certifications and Publications}
+\vspace{-0.3cm}
+{\begin{itemize}[leftmargin=0.6cm,label={\textbullet}]
+      \item  Everett Community College (Expected June 2024) - \underline{\color{blue}\href{https://www.everettcc.edu/programs/bat/it-program/it-degrees-and-certificates/cybersecurity-analyst-certificate}{Cyber Security Analyst}}
+  \end{itemize}} 
+{\begin{itemize}[leftmargin=0.6cm,label={\textbullet}]
+      \item   Journal of Instrumentation (2016) - \underline{\color{blue}\href{https://iopscience.iop.org/article/10.1088/1748-0221/11/11/P11018}{Liquid Scintillator Tiles for Calorimetry}}
+  \end{itemize}} 
+
+% EDUCATION-------------------------------
+\section{Education}
+\customcventry{2023-2024}{\color{blue}\href{}{Everett Community College}}{AAS Computer Science}{Everett, WA}{}{}{Relevent Course Work: C++, Cybersecurity and Cloud Computing, LLM}
+\customcventry{}{}{}{}{}{}
+\customcventry{2011-2015}{\color{blue}\href{}{University of Maryland}}{BS Professional Physics}{College Park, MD}{}{}{Relevent Course Work: Linear Algebra, Calculus, MATLAB and Computational Physics}
+\customcventry{}{}{}{}{}{}
+\customcventry{2005-2012}{\color{blue}\href{}{University of Maryland World Campus}}{BS Social Science}{Adephi, MD}{}{}{Relevent Course Work: Management, Statistics}
+
+
+\end{document}
